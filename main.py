@@ -12,7 +12,6 @@ load_dotenv()
 # Constants for input character limits and timestamp format
 MAX_NAME_CHAR = 15
 MAX_MESSAGE_CHAR = 50
-TIMESTAMP_FMT = "%Y-%m-%d %I:%M:%S %p CET"
 
 # Initialize Supabase client
 supabase: Client = create_client(os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY"))
@@ -31,9 +30,8 @@ def add_message(name, message):
 
 
 def get_messages():
-    response = (
-        supabase.table("guestbook").select("*").order("timestamp", desc=True).execute()
-    )
+    # Sort by 'id' in descending order to get the latest entries first
+    response = supabase.table("guestbook").select("*").order("id", desc=True).execute()
     return response.data
 
 
