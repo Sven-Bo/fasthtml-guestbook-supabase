@@ -1,17 +1,20 @@
-# Sven's Guestbook
+# Sven's Guestbook (Supabase Version)
 
 A simple, real-time guestbook application built with:
+This version is based on the [original FastHTML Guestbook](https://github.com/Sven-Bo/fasthtml-guestbook) but uses Supabase for the database instead of Google Sheets.
 
 - [FastHTML](https://fastht.ml): A Python framework for building HTML applications
 - [HTMX](https://htmx.org): For seamless AJAX requests and updates
+- [Supabase](https://supabase.io): For database storage and management
 
 👋 Say hi: [https://guestbook.pythonandvba.com](https://guestbook.pythonandvba.com)
 
 ![Website Demo](assets/demo.gif)
 
-## Inspiration
 
+## Inspiration
 This project was inspired by [Matt's Guestbook](https://github.com/mattppal/fasthtml-guestbook/tree/main). Thanks, Matt! 🙏
+
 
 ## Video Tutorial (Coming soon!)
 [![YouTube Video](https://img.youtube.com/vi/XXX/0.jpg)](https://youtu.be/XXX)
@@ -23,30 +26,40 @@ This project was inspired by [Matt's Guestbook](https://github.com/mattppal/fast
 To set up the guestbook, you'll need:
 
 - **Python 3.x** installed on your system.
-- **Google Sheets API** and **Google Drive API** enabled on your Google account.
-- **Credentials JSON File:** A `credentials.json` file is required to authenticate with the Google Sheets API. If you haven't set this up yet, a quick tutorial will be provided to guide you through the process.
+- **Supabase Account:** Sign up at [https://supabase.io](https://supabase.io) if you haven't already.
+- **Supabase Project:** Create a new project in Supabase and note down your project URL and API key.
 
 ### Installation
 
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/Sven-Bo/fasthtml-guestbook.git
-   cd yourrepository
+   git clone https://github.com/Sven-Bo/fasthtml-guestbook-supabase.git
+   cd fasthtml-guestbook-supabase
    ```
+
 2. **Install Dependencies:**
 
-   Install the required Python packages using `pip`:
+   Install the required Python packages using \`pip\`:
 
    ```bash
-   pip install -r requirements.txt
+   pip install supabase-py python-dotenv pytz fasthtml
    ```
 
-3. **Set Up Google Sheets API:**
+3. **Set Up Supabase:**
 
-   - Enable the Google Sheets API and Google Drive API in your Google Cloud Console.
-   - Download the `credentials.json` file and place it in the root directory of your project.
-   - Share your Google Sheets document with the email address listed in the `credentials.json` file.
+   - Create a new table named `guestbook` in your Supabase project with the following columns:
+     - `id` (int8, primary key)
+     - `name` (text)
+     - `message` (text)
+     - `timestamp` (text)
+
+   - Create a `.env` file in the root directory of your project with the following content:
+     ```
+     SUPABASE_URL=your_supabase_project_url
+     SUPABASE_KEY=your_supabase_api_key
+     ```
+   Replace `your_supabase_project_url` and `your_supabase_api_key` with your actual Supabase project URL and API key.
 
 4. **Run the Application:**
 
@@ -61,8 +74,6 @@ To set up the guestbook, you'll need:
 ## Deployment
 
 You can deploy this guestbook application using your preferred hosting service. Follow the steps in the [FastHTML documentation](https://docs.fastht.ml/tutorials/by_example.html#deploying-your-app) to learn how to deploy your application.
-
-
 
 ## 🤝 Connect with Me
 - 📺 **YouTube:** [CodingIsFun](https://youtube.com/c/CodingIsFun)
