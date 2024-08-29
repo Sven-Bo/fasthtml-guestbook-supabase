@@ -37,10 +37,12 @@ def get_messages():
 
 
 def render_message(entry):
-    return Article(
-        Header(f"Name: {entry['name']}"),
-        P(entry["message"]),
-        Footer(f"Posted at {entry['timestamp']}"),
+    return (
+        Article(
+            Header(f"Name: {entry['name']}"),
+            P(entry["message"]),
+            Footer(Small(Em(f"Posted: {entry['timestamp']}"))),
+        ),
     )
 
 
