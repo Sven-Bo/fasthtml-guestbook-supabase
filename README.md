@@ -17,7 +17,7 @@ This project was inspired by [Matt's Guestbook](https://github.com/mattppal/fast
 
 
 ## Video Tutorial (Coming soon!)
-[![YouTube Video](https://img.youtube.com/vi/XXX/0.jpg)](https://youtu.be/XXX)
+[![YouTube Video](https://img.youtube.com/vi/_o31SB3NLFk/0.jpg)](https://youtu.be/_o31SB3NLFk)
 
 ## Setup
 
