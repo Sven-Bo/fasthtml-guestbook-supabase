@@ -16,7 +16,7 @@ This version is based on the [original FastHTML Guestbook](https://github.com/Sv
 This project was inspired by [Matt's Guestbook](https://github.com/mattppal/fasthtml-guestbook/tree/main). Thanks, Matt! 🙏
 
 
-## Video Tutorial (Coming soon!)
+## Video Tutorial
 [![YouTube Video](https://img.youtube.com/vi/_o31SB3NLFk/0.jpg)](https://youtu.be/_o31SB3NLFk)
 
 ## Setup
