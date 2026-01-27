@@ -11,10 +11,8 @@ This version is based on the [original FastHTML Guestbook](https://github.com/Sv
 
 ![Website Demo](assets/demo.gif)
 
-
 ## Inspiration
 This project was inspired by [Matt's Guestbook](https://github.com/mattppal/fasthtml-guestbook/tree/main). Thanks, Matt! 🙏
-
 
 ## Video Tutorial
 [![YouTube Video](https://img.youtube.com/vi/_o31SB3NLFk/0.jpg)](https://youtu.be/_o31SB3NLFk)
@@ -80,6 +78,3 @@ You can deploy this guestbook application using your preferred hosting service. 
 - **Website:** [PythonAndVBA](https://pythonandvba.com)
 - **LinkedIn:** [Sven Bosau](https://www.linkedin.com/in/sven-bosau/)
 - **Contact:** [Get in Touch](https://pythonandvba.com/contact)
-## Feedback & Collaboration
-For feedback, suggestions, or potential collaboration opportunities, reach out at contact@pythonandvba.com.
-![Logo](https://www.pythonandvba.com/banner-img)
