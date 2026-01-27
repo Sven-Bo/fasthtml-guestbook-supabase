@@ -75,14 +75,11 @@ To set up the guestbook, you'll need:
 
 You can deploy this guestbook application using your preferred hosting service. Follow the steps in the [FastHTML documentation](https://docs.fastht.ml/tutorials/by_example.html#deploying-your-app) to learn how to deploy your application.
 
-## 🤝 Connect with Me
-- 📺 **YouTube:** [CodingIsFun](https://youtube.com/c/CodingIsFun)
-- 🌐 **Website:** [PythonAndVBA](https://pythonandvba.com)
-- 💼 **LinkedIn:** [Sven Bosau](https://www.linkedin.com/in/sven-bosau/)
-- 📬 **Contact:** [Get in Touch](https://pythonandvba.com/contact)## Support 
-If you appreciate the project and wish to encourage its continued development, consider [supporting my work](https://pythonandvba.com/coffee-donation).
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://pythonandvba.com/coffee-donation)
-
+## Connect with Me
+- **YouTube:** [CodingIsFun](https://youtube.com/c/CodingIsFun)
+- **Website:** [PythonAndVBA](https://pythonandvba.com)
+- **LinkedIn:** [Sven Bosau](https://www.linkedin.com/in/sven-bosau/)
+- **Contact:** [Get in Touch](https://pythonandvba.com/contact)
 ## Feedback & Collaboration
 For feedback, suggestions, or potential collaboration opportunities, reach out at contact@pythonandvba.com.
 ![Logo](https://www.pythonandvba.com/banner-img)
